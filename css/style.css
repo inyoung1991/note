@@ -1,0 +1,49 @@
+@charset "UTF-8";
+li{
+	list-style: none;
+}
+.tabui {
+}
+.tabui .tabList{
+	overflow: hidden;
+
+}
+.tabui .tabList li {
+	float: left;
+
+}
+/*display: block은 float가능, inline...*/
+/*id 값, class 값*/
+.row{
+	overflow: hidden
+}
+
+
+.row .red{
+	background-color: red;
+	float: left;
+}
+.row .orange{
+	background-color: orange;
+	float: left;
+}
+.row .yellow{
+	background-color: yellow;
+	float: left;
+}
+
+.row .block{
+	background: green;
+	float: left;
+	width: 33.33%;
+	height:100px;
+
+}
+
+.box{
+	width: 100%;
+}
+.box > .block{
+	width: 100%;
+	background-color: gray;
+}
